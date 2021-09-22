@@ -16,5 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "public/Pong.js"]
+  "include": ["src", "public/game.js"]
 }

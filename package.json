@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "blockchain-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,15 +10,15 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "phaser-react-tools": "^1.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-iframe": "^1.8.0",
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "s": "echo 4; echo 5",
+    "export": "cd godot; godot --no-window --export-debug 'HTML5' './export/game.html'; mv ./export/game.pck ../public/game.pck; mv ./export/game.wasm ../public/game.wasm",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
