@@ -1,7 +1,6 @@
-import React from 'react'
-import './App.css'
-import { Game } from './components/game'
-function App() {
+//import React from 'react'
+
+function Game() {
   const height = document.body.clientHeight
   return (
     <div style={{ height: height, width: '100%' }} className="App">
@@ -14,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export { Game }

@@ -4,3 +4,6 @@ node_modules
 godot/.import
 godot/export
 *.import
+
+#chain
+test-ledger
