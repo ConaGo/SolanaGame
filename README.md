@@ -5,7 +5,8 @@ Fight for power in this ever expanding post apocalyptic universe
 - Frontend in React
 - Godot Game Engine
 - Web3 Solana Cli wrapper
-- Smart contracts in Rust
+- Smart contracts in Rust  https://github.com/ConaGo/SolanaEscrow
+- Backed in Elixir/Phoenix https://github.com/ConaGo/phoenixBackendSolanaGame
 
 # Setup
 
